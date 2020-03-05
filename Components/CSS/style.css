@@ -1,0 +1,45 @@
+h1, p {
+  font-family: Lato;
+}
+li.nav-manu {
+  display: inline-block;
+  padding: 5px;
+  margin: 0 5px;
+}
+.user_info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.user_info {
+  width: 45%;
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  text-align: left;
+}
+.edit_icon,.delete_icon,.user_info_icon {
+    margin: 10px;
+    color: gray;
+}
+.form-label {
+    font-weight: 600;
+    padding-right: 5px;
+    min-width: 75px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.form-input {
+    padding: 5px;
+    text-transform: capitalize;
+    color: #000;
+}
+.erorr {
+    color: red;
+    margin-left: 80px;
+}
+.form-group {
+    margin-bottom: 5px;
+}
